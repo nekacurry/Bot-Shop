@@ -23,7 +23,7 @@ class NewOrderViewController: UIViewController {
         layout.minimumLineSpacing = 30
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
         collectionView.translatesAutoresizingMaskIntoConstraints = false
-        collectionView.backgroundColor = UIColor(red:1.0, green:1.0, blue:1.0, alpha:0.0)
+        collectionView.backgroundColor = UIColor(red:0.49, green:0.84, blue:0.87, alpha:1.0)
 
         collectionView.register(NewItemCell.self, forCellWithReuseIdentifier: "cell")
 
@@ -33,7 +33,7 @@ class NewOrderViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        view.backgroundColor = .systemPink
+        view.backgroundColor = UIColor(red:0.49, green:0.84, blue:0.87, alpha:1.0)
         collectionView.dataSource = self
         collectionView.delegate = self
         setViews()
@@ -59,7 +59,7 @@ extension NewOrderViewController: UICollectionViewDataSource, UICollectionViewDe
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! NewItemCell
-        cell.backgroundColor = .green
+        cell.backgroundColor = .blue
         cell.data = self.data[indexPath.row]
         return cell
     }

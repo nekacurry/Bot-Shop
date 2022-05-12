@@ -14,6 +14,7 @@
 		37AED362282D894E00F3FFF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37AED360282D894E00F3FFF7 /* LaunchScreen.storyboard */; };
 		37AED36A282D8E1400F3FFF7 /* PastOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AED369282D8E1400F3FFF7 /* PastOrderViewController.swift */; };
 		37AED36C282D8E7300F3FFF7 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AED36B282D8E7300F3FFF7 /* TabBarController.swift */; };
+		37AED36E282D8F2E00F3FFF7 /* NewItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AED36D282D8F2E00F3FFF7 /* NewItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		37AED363282D894E00F3FFF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37AED369282D8E1400F3FFF7 /* PastOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderViewController.swift; sourceTree = "<group>"; };
 		37AED36B282D8E7300F3FFF7 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		37AED36D282D8F2E00F3FFF7 /* NewItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				37AED363282D894E00F3FFF7 /* Info.plist */,
 				37AED369282D8E1400F3FFF7 /* PastOrderViewController.swift */,
 				37AED36B282D8E7300F3FFF7 /* TabBarController.swift */,
+				37AED36D282D8F2E00F3FFF7 /* NewItemCell.swift */,
 			);
 			path = "Bot-Shop";
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				37AED358282D894A00F3FFF7 /* SceneDelegate.swift in Sources */,
 				37AED36C282D8E7300F3FFF7 /* TabBarController.swift in Sources */,
 				37AED36A282D8E1400F3FFF7 /* PastOrderViewController.swift in Sources */,
+				37AED36E282D8F2E00F3FFF7 /* NewItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

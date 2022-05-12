@@ -16,6 +16,7 @@
 		37AED36C282D8E7300F3FFF7 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AED36B282D8E7300F3FFF7 /* TabBarController.swift */; };
 		37AED36E282D8F2E00F3FFF7 /* NewItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AED36D282D8F2E00F3FFF7 /* NewItemCell.swift */; };
 		37AED370282D912D00F3FFF7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AED36F282D912D00F3FFF7 /* Item.swift */; };
+		37AED372282D982E00F3FFF7 /* PastOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AED371282D982E00F3FFF7 /* PastOrderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		37AED36B282D8E7300F3FFF7 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		37AED36D282D8F2E00F3FFF7 /* NewItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemCell.swift; sourceTree = "<group>"; };
 		37AED36F282D912D00F3FFF7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		37AED371282D982E00F3FFF7 /* PastOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				37AED36B282D8E7300F3FFF7 /* TabBarController.swift */,
 				37AED36D282D8F2E00F3FFF7 /* NewItemCell.swift */,
 				37AED36F282D912D00F3FFF7 /* Item.swift */,
+				37AED371282D982E00F3FFF7 /* PastOrderCell.swift */,
 			);
 			path = "Bot-Shop";
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				37AED35A282D894A00F3FFF7 /* NewOrderViewController.swift in Sources */,
 				37AED356282D894A00F3FFF7 /* AppDelegate.swift in Sources */,
+				37AED372282D982E00F3FFF7 /* PastOrderCell.swift in Sources */,
 				37AED358282D894A00F3FFF7 /* SceneDelegate.swift in Sources */,
 				37AED36C282D8E7300F3FFF7 /* TabBarController.swift in Sources */,
 				37AED370282D912D00F3FFF7 /* Item.swift in Sources */,
